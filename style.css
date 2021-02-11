@@ -3,15 +3,36 @@ html,body {
     height: 100%;
     width: 100%;
     text-align: center;
+    background-color:#073642;
 }
 h1 {
-    color: #073642;
-    background-color: #fdf6e3;
+    position: absolute;
+    color: #fdf6e3;
     padding: 30px;
-    margin: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-family: 'Fira Code iScript';
+    
+}
+span {
+    color: #fdf6e3;
+    font-size: 1rem;
 }
 #entra {
     background-color: transparent;
     font-size: 1rem;
     cursor: pointer;
+}
+.lampeggio {
+    animation: lampeggio step-end 1s infinite;
+    display: inline-block;
+}
+@keyframes lampeggio {
+    from, to {
+        color: transparent;
+    }
+    50% {
+        color: #fdf6e3;
+    }
 }
