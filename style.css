@@ -3,7 +3,18 @@ html,body {
     height: 100%;
     width: 100%;
     text-align: center;
-    background-color: black;
+    background-color: #150042;
+    color: white;
+}
+.page-wrapper {
+
+}
+#particles-js {
+    height: 100vh;
+    overflow: hidden;
+    border-left: 30px solid white;
+    border-right: 30px solid white;
+    border-bottom: 30px solid white;
 }
 h1 {
     position: absolute;
@@ -13,9 +24,22 @@ h1 {
     left: 50%;
     transform: translate(-50%,-50%);
     font-family: 'Fira Code iScript';
+    text-transform: uppercase;
+
     
 }
-#particles-js {
-    height: 100%;
+h1 span {
+    display: block;
+    font-size: 1rem;
+}
+nav {
+    background-color: white;
+    color: black;
+}
 
+img {
+    width: 17%;
+}
+.out {
+    
 }
