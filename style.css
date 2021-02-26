@@ -6,9 +6,7 @@ html,body {
     background-color: #150042;
     color: white;
 }
-.page-wrapper {
 
-}
 #particles-js {
     height: 100vh;
     overflow: hidden;
@@ -40,6 +38,4 @@ nav {
 img {
     width: 17%;
 }
-.out {
-    
-}
+
